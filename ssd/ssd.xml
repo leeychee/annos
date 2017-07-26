@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+    <folder>VOC2007</folder>
+    <!-- 文件名 -->
+    <filename>P_20170516051434_804.jpg</filename>
+    <source>
+        <database>The VOC2007 Database</database>  
+        <annotation>PASCAL VOC2007</annotation>
+        <!-- 随便写 -->
+        <image>flickr</image>
+        <!-- 随便写 -->
+        <flickrid>341012865</flickrid>
+    </source>
+    <owner>
+        <!-- 随便写 -->
+        <flickrid>Fried Camels</flickrid>
+        <!-- 随便写 -->
+        <name>Jinky the Fruit Bat</name>
+    </owner>
+    <size>
+        <!-- 图像宽度 -->
+        <width>1920</width>
+        <!-- 图像高度 -->
+        <height>1080</height>
+        <!-- 图像深度信息 -->
+        <depth>3</depth>
+    </size>
+    <!--//值为0，不用于分割-->
+    <segmented>0</segmented>
+    <object>
+        <name>car</name>
+        <!-- 不指定状态 -->
+        <pose>Unspecified</pose>
+        <!-- 没有被删节 -->
+        <truncated>1</truncated>
+        <!-- 不是难以识别的目标 -->
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>482</xmin>
+            <ymin>296</ymin>
+            <xmax>805</xmax>
+            <ymax>613</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>car</name>
+        <!-- 不指定状态 -->
+        <pose>Unspecified</pose>
+        <!-- 没有被删节 -->
+        <truncated>1</truncated>
+        <!-- 不是难以识别的目标 -->
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>482</xmin>
+            <ymin>296</ymin>
+            <xmax>805</xmax>
+            <ymax>613</ymax>
+        </bndbox>
+    </object>
+</annotation>
