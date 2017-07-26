@@ -2,7 +2,6 @@ package annos
 
 import (
 	"errors"
-
 	"fmt"
 
 	"github.com/leeychee/annos/detrac"
@@ -56,7 +55,7 @@ func detracBox2SsdBndbox(d detrac.Box) ssd.Bndbox {
 	return ssd.Bndbox{
 		Xmin: int(d.Left + 0.5),
 		Ymin: int(d.Top + 0.5),
-		Xmax: int(d.Left + d.Width),
-		Ymax: int(d.Top + d.Height),
+		Xmax: int(d.Left + d.Width + 0.5),
+		Ymax: int(d.Top + d.Height + 0.5),
 	}
 }
